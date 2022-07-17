@@ -1,9 +1,18 @@
 
 header{
     padding-top: 1rem;
-    
+    padding-bottom: 1rem;
+    background-color: black;
 }
-
+.sign{
+    margin-left: 3%;
+    display: flex;
+    justify-content: right;
+}
+.header_icons {
+    color: white;
+    font-size: 2rem;
+}
   .btn{
     display: inline-block;
     width: max-content;

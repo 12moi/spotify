@@ -4,10 +4,12 @@ import './header.css'
 function Header() {
   return (
     <header>
-      <div className='container header_container'>
+  <header_Icons/>
+      <div className='sign'>
       <button className='primary'>Sign up</button>
       <button className='btn'>Log in</button>
       </div>
+     
 
     </header>
   )
