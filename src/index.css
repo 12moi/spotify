@@ -65,51 +65,10 @@ a{
   transition: var(--transition);
   color: var(--color-primary);
 }
-a:hover{
-  color: var(--color-white);
-}
-.btn{
-  display: inline-block;
-  width: max-content;
-  color: var(--color-primary);
-  border-radius: 0.4rem;
-  cursor: pointer;
-  padding: 0.75rem 1.2rem;
-  border: 1px solid var(--color-primary);
-  transition: var(--transition);
-}
-.btn:hover{
-  background-color: var(--color-primary-variant);
-  color: var(--color-bg);
-  border-color: transparent;
-}
-.btn-primary{
-  color: var(--color-bg);
-  background-color: var(--color-primary);
-}
-img{
-  display: block;
-  width: 100%;
-  object-fit: cover;
-}
 
 
-@media screen and (max-width: 1024px){
-.container{
-  width: var(--container-width-md);
-}
-section{
-  margin-top: 6rem;
-}
-}
 
-@media screen and (max-width: 600px){
-  .container{
-    width: var(--container-width-sm);
-  }
-  section> h2{
-    margin-bottom: 2rem;
-  }
-  }
 
-  /* // "start": "react-scripts start", */
+
+
+
