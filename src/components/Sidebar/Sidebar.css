@@ -5,8 +5,8 @@
     min-width: 200px;
     max-width: 200px;
     padding-right:10px;
-    background: #1a3e59;
-    color: #fff;
+    background: #040608;
+    color: rgb(58, 57, 57);
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -27,13 +27,14 @@
     transform: translateX(50%);
 }
 .side  a {
-    padding: 10px;
-    font-size: 1.1em;
+    padding: 8px;
+    font-size: 1.0em;
+    color: rgb(154, 155, 156);
     display: block;
 }
 .side a:hover {
     color: white;
-    background: teal;
+   
 }
 .footer{
     font-size: smaller;

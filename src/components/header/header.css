@@ -5,7 +5,7 @@ nav{
   border: none;
   border-radius: 0;
   margin-bottom: 200px;
-    background-color: black;
+    background-color: rgb(27, 26, 26);
 }
 .Header_sidebar{
   display: grid;
