@@ -1,8 +1,16 @@
 
-header{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: black;
+nav{
+  padding: 20px 10px;
+  height: fit-content;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 200px;
+    background-color: rgb(27, 26, 26);
+}
+.Header_sidebar{
+  display: grid;
+  grid-template-columns:10% repeat(1,1fr);
+  
 }
 .sign{
     margin-left: 3%;

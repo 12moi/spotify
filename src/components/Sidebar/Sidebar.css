@@ -1,0 +1,43 @@
+
+
+.side{
+    height: 100vh;
+    min-width: 200px;
+    max-width: 200px;
+    padding-right:10px;
+    background: #040608;
+    color: rgb(58, 57, 57);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin-bottom: 0;
+    transition: all 0.3s;
+}
+.side.active{
+    min-width: 90px;
+    max-width: 90px;
+    text-align: center;
+}
+.side.active .dropdown-toggle::after {
+    top: auto;
+    bottom: 10px;
+    right: 50%;
+    -webkit-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    transform: translateX(50%);
+}
+.side  a {
+    padding: 8px;
+    font-size: 1.0em;
+    color: rgb(154, 155, 156);
+    display: block;
+}
+.side a:hover {
+    color: white;
+   
+}
+.footer{
+    font-size: smaller;
+   margin-top: 120%;
+}
+    
