@@ -26,7 +26,14 @@ function Sidebar() {
     <a className="menu-item" href="/liked">
       Liked Songs
     </a>
-
+   <div className='footer'>
+   <a className="foot" href="/cookies">
+      Cookies
+    </a>
+    <a className="foot" href="/privacy">
+      Privacy
+    </a>
+   </div>
     
     </div>
   )
