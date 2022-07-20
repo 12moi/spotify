@@ -2,9 +2,9 @@
 
 
 import React, { Component } from 'react'
-import {IoIosArrowBack}  from 'react-icons/fa'
-import {IoIosArrowForward}  from 'react-icons/fa'
-export class header_Icons extends Component {
+import {IoIosArrowForward}  from 'react-icons/io'
+import {IoIosArrowBack}  from 'react-icons/io'
+export class headerarrow extends Component {
   render() {
     return (
       <div className='header_icons' style={{color:'white'}}>
@@ -16,4 +16,4 @@ export class header_Icons extends Component {
   }
 }
 
-export default header_Icons
+export default headerarrow
