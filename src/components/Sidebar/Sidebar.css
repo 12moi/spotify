@@ -1,0 +1,37 @@
+
+
+.side{
+    height: 100vh;
+    min-width: 200px;
+    max-width: 200px;
+    padding-right:10px;
+    background: #1a3e59;
+    color: #fff;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin-bottom: 0;
+    transition: all 0.3s;
+}
+.side.active{
+    min-width: 90px;
+    max-width: 90px;
+    text-align: center;
+}
+.side.active .dropdown-toggle::after {
+    top: auto;
+    bottom: 10px;
+    right: 50%;
+    -webkit-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    transform: translateX(50%);
+}
+.side  a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+.side a:hover {
+    color: white;
+    background: teal;
+}

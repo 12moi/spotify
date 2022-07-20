@@ -8,7 +8,7 @@ function Header() {
       <div className='sidebar'>
       <Sidebar />
       </div>
-    <header>
+    <nav>
       
   <header_Icons/>
       <div className='sign'>
@@ -17,7 +17,7 @@ function Header() {
       </div>
      
 
-    </header>
+    </nav>
     </div>
   )
 }
